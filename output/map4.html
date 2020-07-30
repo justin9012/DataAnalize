@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_510e02fcb3744448a70fff27bc52d608 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_510e02fcb3744448a70fff27bc52d608" ></div>
+        
+</body>
+<script>    
+    
+            var map_510e02fcb3744448a70fff27bc52d608 = L.map(
+                "map_510e02fcb3744448a70fff27bc52d608",
+                {
+                    center: [37.5609615, 126.9745681],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_be0710da3f07474aa778feb0bebef487 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var marker_88d705df22c7472a92d62e5dcf1c5208 = L.marker(
+                [37.5609615, 126.9745681],
+                {}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var icon_1d7dc474d7d0422cab203595417865b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88d705df22c7472a92d62e5dcf1c5208.setIcon(icon_1d7dc474d7d0422cab203595417865b0);
+        
+    
+        var popup_b6eb91ccd8f04cbcabe9e3dd999245e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b034d8a08e50433e9c63079be2e3be1f = $(`<div id="html_b034d8a08e50433e9c63079be2e3be1f" style="width: 100.0%; height: 100.0%;">서울특별시청</div>`)[0];
+            popup_b6eb91ccd8f04cbcabe9e3dd999245e3.setContent(html_b034d8a08e50433e9c63079be2e3be1f);
+        
+
+        marker_88d705df22c7472a92d62e5dcf1c5208.bindPopup(popup_b6eb91ccd8f04cbcabe9e3dd999245e3)
+        ;
+
+        
+    
+    
+            var marker_fb86d50975c9480e9db5845e0bbc2e28 = L.marker(
+                [37.5657852, 126.9740246],
+                {}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var icon_2a64943109794920ac54ca396e86ac2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb86d50975c9480e9db5845e0bbc2e28.setIcon(icon_2a64943109794920ac54ca396e86ac2e);
+        
+    
+        var popup_97664ed1fc844c6abda2dceb333f83f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e158d2b6e12343cfae1fbeb1c2fdf502 = $(`<div id="html_e158d2b6e12343cfae1fbeb1c2fdf502" style="width: 100.0%; height: 100.0%;">덕수궁</div>`)[0];
+            popup_97664ed1fc844c6abda2dceb333f83f5.setContent(html_e158d2b6e12343cfae1fbeb1c2fdf502);
+        
+
+        marker_fb86d50975c9480e9db5845e0bbc2e28.bindPopup(popup_97664ed1fc844c6abda2dceb333f83f5)
+        ;
+
+        
+    
+    
+            var marker_a43056b936ac4f13b7b4ee4a257cd2d1 = L.marker(
+                [37.5748406, 126.9697778],
+                {}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var icon_33d6ba647956423cb1c4a41877835bfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "chevron-down", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a43056b936ac4f13b7b4ee4a257cd2d1.setIcon(icon_33d6ba647956423cb1c4a41877835bfd);
+        
+    
+        var popup_f2626970aa704b729b44867b52a9ea8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5d3df381a354411a14302991f48f3c3 = $(`<div id="html_d5d3df381a354411a14302991f48f3c3" style="width: 100.0%; height: 100.0%;">서울지방경찰청</div>`)[0];
+            popup_f2626970aa704b729b44867b52a9ea8a.setContent(html_d5d3df381a354411a14302991f48f3c3);
+        
+
+        marker_a43056b936ac4f13b7b4ee4a257cd2d1.bindPopup(popup_f2626970aa704b729b44867b52a9ea8a)
+        ;
+
+        
+    
+    
+            var marker_62f3dc8a8bcc472c9aaa3c1f3c2dc9e7 = L.marker(
+                [37.5759369, 126.974627],
+                {}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var icon_412fb02db80541dab3fa14480d2cd85b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "pushpin", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_62f3dc8a8bcc472c9aaa3c1f3c2dc9e7.setIcon(icon_412fb02db80541dab3fa14480d2cd85b);
+        
+    
+        var popup_9ff39ec54a4b4bd58bf9759fbb5eb6ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a51726ca83242f6a90b729c91d3b3cd = $(`<div id="html_6a51726ca83242f6a90b729c91d3b3cd" style="width: 100.0%; height: 100.0%;">광화문</div>`)[0];
+            popup_9ff39ec54a4b4bd58bf9759fbb5eb6ec.setContent(html_6a51726ca83242f6a90b729c91d3b3cd);
+        
+
+        marker_62f3dc8a8bcc472c9aaa3c1f3c2dc9e7.bindPopup(popup_9ff39ec54a4b4bd58bf9759fbb5eb6ec)
+        ;
+
+        
+    
+    
+            var marker_1a9980ca782f4ea49c28b7357288ae4c = L.marker(
+                [37.5631549, 126.9695791],
+                {}
+            ).addTo(map_510e02fcb3744448a70fff27bc52d608);
+        
+    
+            var icon_cf7e60572fc04983835b45e6b415cdc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "download-alt", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1a9980ca782f4ea49c28b7357288ae4c.setIcon(icon_cf7e60572fc04983835b45e6b415cdc8);
+        
+    
+        var popup_6e2c5a7382bd439d925073db1da2716f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e06b8284fc964a25a190cd0f6e50f2c2 = $(`<div id="html_e06b8284fc964a25a190cd0f6e50f2c2" style="width: 100.0%; height: 100.0%;">영풍문고</div>`)[0];
+            popup_6e2c5a7382bd439d925073db1da2716f.setContent(html_e06b8284fc964a25a190cd0f6e50f2c2);
+        
+
+        marker_1a9980ca782f4ea49c28b7357288ae4c.bindPopup(popup_6e2c5a7382bd439d925073db1da2716f)
+        ;
+
+        
+    
+</script>
